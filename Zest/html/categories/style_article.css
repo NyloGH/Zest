@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+/*Fond écrans*/
+
+#elden_ring {
+    background-image: url('https://w.forfun.com/fetch/59/59943a2d74e9a19e1d32e1c3f81fd08d.jpeg');
+}
+
+#zelda_ocarina_of_time {
+    background-image: url('https://w.forfun.com/fetch/cc/cc1a68c66531da6464e17f30e7c0e05b.jpeg');
+}
+
+#zelda_ocarina_of_time::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+
+/* Barre de Navigation */
+
+nav {
+    background-color: rgb(25, 25, 27);
+    width: 100%;
+    position: fixed;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a img {
+    width: 9%;
+    margin-left: 1%;
+}
+
+
+#about {
+    margin-right: 2%;
+    color: aliceblue;
+    text-decoration: none;
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease 0.3s;
+}
+
+#about:hover {
+    transition: ease 0.3s;
+    color: white;
+    text-shadow: 0px 0px 4px white;
+}
+
+#login {
+    color: rgb(138, 138, 138);
+    background-color: rgb(25, 25, 27);
+    border: none;
+    cursor:pointer;
+    margin-left: 2%;
+    width: 6%;
+    transition:ease 0.3s;
+}
+
+#login:hover {
+    color: rgb(179, 179, 179);
+    transition:ease 0.3s;
+    text-shadow: 0px 0px 7px rgb(117, 117, 117);
+}
+
+#register {
+    color: aliceblue;
+    background-color: rgb(211, 52, 86);
+    margin-right: 2%;
+    margin-left: 1%;
+    padding: 0.5%;
+    border: none;
+    border-radius: 2px;
+    transition:ease 0.3s;
+}
+
+#register:hover {
+    color: white;
+    transition:ease 0.3s;
+    text-shadow: 0px 0px 7px white;
+}
+
+i {
+    margin-right: 5%;
+}
+
+/* Fin Barre de Navigation */
+
+h1 {
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-size: 230%;
+    margin-top: 1%;
+    padding: 5%;
+}
+
+#titre img {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#titre, #para {
+    display: flex;
+}
+
+
+#article {
+    padding: 5%;
+    padding-left: 10%;
+    width: 50%;
+}
+
+#article h2 {
+    font-size: 160%;
+    color: rgb(231, 231, 231);
+    font-family: 'Roboto';
+    margin-bottom: 2%;
+}
+
+#article p {
+    color: rgb(231, 231, 231);
+    font-size: 120%;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+
+#article img {
+    margin-right: -60%;
+    margin-left: 30%;
+    margin-top: -10%;
+}
+
+
+
+
+
+
+/* Pied de page */
+
+footer {
+    margin-top: 5%;
+    background-color: rgb(25, 25, 27);
+    padding: 35px 125px;
+    color: #828282;
+}
+
+
+footer div div a {
+    margin: 15%;
+    color: #828282;
+    text-decoration: none;
+    font-family: 'Roboto';
+    display: block;
+    width: 110%;
+    transition: ease 0.3s;
+}
+
+footer div div a:hover {
+    transition: ease 0.3s;
+    color: #9b9b9b;
+    text-shadow: 0px 0px 3px #9b9b9b;
+}
+
+
+#colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Fin pied de page */
